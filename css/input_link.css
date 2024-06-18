@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+}
+
+textarea.full-width {
+    width: 900px;
+    height: 440px;
+    margin: 10px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#notesList {
+    margin-top: 20px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+CSS Reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style cho bảng */
+table {
+    width: 90%;
+    border: 1px solid #000000; /* chỉ hiển thị một viền cho toàn bộ bảng */
+    border-collapse: collapse;
+    margin: 20px auto; /* tạo khoảng cách từ đỉnh trang */
+}
+
+th, td {
+    border: 1px solid #000000; /* thêm viền cho từng ô */
+    text-align: left;
+    padding: 0.75rem; /* tăng khoảng cách đệm để tạo khoảng cách giữa nội dung và viền */
+}
+
+th {
+    border-bottom: 2px solid #000000; /* tăng độ dày đường viền dưới cho tiêu đề */
+    background-color: #f2f2f2; /* thêm màu nền cho tiêu đề */
+}
+
+/* Style cho input text */
+input[type="text"] {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #000000; /* thêm viền cho input text */
+}
+
+/* Style cho nút */
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px 10px 5px;
+    cursor: pointer;
+    border-radius: 5px; /* làm tròn góc cho nút */
+}
+
+.xb{
+    margin-left: 8rem;
+}
+
+.cn{
+    margin-left: 8rem;
+}
+
+/* CSS cho form chỉnh sửa */
+form {
+    display: flex;
+    flex-direction: row;
+} 
+
+input[type="text"] {
+    width: 90%;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#div2{
+    width: 90vw;
+}
+
+.c1 {
+    width: 70%;
+}
+  
+.c2 {
+    width: 30%;
+}
+
+#bq{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
